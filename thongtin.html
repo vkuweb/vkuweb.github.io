@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./index.css">
+<body>
+	<div id="baner"><img src="./logo.png" width="980" height="100"></div>
+	<div id="menu">
+		<ul>
+			<li><a href="./index.html" Tile="Trang chủ" class="active">Trang chủ </a></li>
+			<li><a href="./index1.html" Tile="Trang chủ">Thông tin tuyển sinh</a></li>
+			<li><a href="./thongtin.html" Tile="Trang chủ">Thông tin cá nhân</a></li>
+			<li><a href="./chuongtrinh.html" Tile="Trang chủ">Chương trình đào tạo</a></li>
+			<li><a href="./chuongtrinhweb.html" Tile="Trang chủ">Chương trình WEB</a></li>
+			<li><a href="./lienhe.html" Tile="Trang chủ">Liên hệ </a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<div id="left">
+			<h3>Liên kết trong</h3>
+			<ul>
+				<li><a href="./index1.html">Thông tin tuyển sinh</a></li>
+				<li><a href="./thongtin.html">Đăng ký thông tin</a></li>
+				<li><a href="./chuongtrinh.html">Chương trình đào tao</a></li>
+				<li><a href="./chuongtrinhweb.html">Chương trình WEB</a></li>
+				<li><a href="./lienhe.html">Liên hệ</a></li>
+			</ul>
+			<hr>
+			<h3>Liên kết ngoài</h3>
+			<ul>
+				<li><a href="http://vku.udn.vn">ĐH Việt Hàn</a></li>
+				<li><a href="http://daotao.ufl.udn.vn">ĐH Ngoại ngữ</a></li>
+				<li><a href="http://due.udn.vn">ĐH Kinh tế</a></li>
+				<li><a href="http://dut.udn.vn">ĐH Bách khoa</a></li>
+			</ul>
+		</div> 
+		<div id="center">
+			<style>
+		table {border: 3px solid white}
+	</style>
+	<form>
+		<table >
+			<tr>
+				<th style="font-size: 24px; color: red"; colspan="2">ĐĂNG KÝ THÀNH VIÊN</th>
+			</tr>
+			<tr>
+				<th align="left" colspan="2">THÔNG TIN TÀI KHOẢN</th>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td>
+					<input type="text" name="user" size="30" placeholder="Nhập username" >
+				</td>
+			</tr>
+
+			<tr>
+				<td>Password:</td>
+				<td>
+					<input type="password" name="pass" size="30" placeholder="Nhập Password" >
+				</td>
+			</tr>
+				<td>Nhập lại Password:</td>
+				<td>
+					<input type="password" name="pass" size="30" placeholder="Nhập lại Password">
+				</td>
+
+			<tr>
+				<th align="left" colspan="2">THÔNG TIN CÁ NHÂN</th>
+			</tr>
+
+			<tr>
+				<td>Họ và tên:</td>
+				<td>
+					<input type="text" name="hoten" size="30" placeholder="Nhập họ và tên">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Giới tính:</td>
+				<td>
+					<select name="gioitinh">
+						<option value="nam">Nam</option>
+						<option value="nu">Nữ</option>
+						<option value="khac">Khác</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Địa chỉ:</td>
+				<td>
+					<textarea placeholder="Nhập địa chỉ"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Ngày sinh:</td>
+				<td>
+					<input type="text" name="ngaysinh" size="30" placeholder="dd/mm/yyyy" >
+				</td>
+			</tr>
+
+			<tr>
+				<td>Email:</td>
+				<td>
+					<input type="email" name="text" size="30" placeholder="mailname@gmail.com" >
+				</td>
+			</tr>
+			<tr>
+				<td>Tình trạng hôn nhân</td>
+				<td>
+					<form>
+						<input name="honnhan" type="radio" /> Độc thân
+						<input name="honnhan" type="radio" /> Đã đính hôn <br>
+						<input name="honnhan" type="radio" /> Ly dị
+						<input name="honnhan" type="radio" /> Quá phụ
+					</form>
+				</td>
+			</tr>
+			<br>
+			<tr>
+				<td align="right" >
+					<input type="submit" name="btnsend" value="Gửi đi">
+				</td>
+				<td >
+					<input  type="reset" name="btnreset" value="Nhập lại"> <br>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+		</div>
+	</div>
+
+	<div id="footer">
+		Đại học Đà Nẵng </br>
+		Bản quyền thuộc Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn-Đại học Đà Nẵng 2020</br>
+		Số điện thoại :090123456
+		
+	</div>
+
+</body>
+</html>
